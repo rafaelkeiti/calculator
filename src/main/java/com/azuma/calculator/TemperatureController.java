@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/temperature")
 public class TemperatureController {
 
+    @GetMapping
     public String temperature() {
         return "Olá, sou um conversor de temperatura.";
     }
